@@ -1,7 +1,7 @@
 # Travail a Faire
 
 ### il doit créer un lab CRUD en utilisant le framework Laravel
-#### Ce labdevrait inclure :
+#### Ce lab devrait inclure :
 
 - CRUD
 - Pagination
