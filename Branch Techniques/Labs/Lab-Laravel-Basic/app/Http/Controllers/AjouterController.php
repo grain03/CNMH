@@ -10,6 +10,7 @@ class AjouterController extends Controller
     public function ajouter()
     {
         return view("users.ajouter");
+        
     }
 
     public function AjouterUser(Request $request)
