@@ -7,7 +7,7 @@
 
 ## Palette de coloris:
 - **Color Harmony:** ``Triad``
-  - Color Codes
+  - Color Codes:
     - #EB9594
     - #94C6EB
     - #EBEB94
