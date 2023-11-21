@@ -1,6 +1,11 @@
 # Charte Graphiques
-## Palette de coloris:
 
+
+## Logo CNMH 
+<img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/cnmh.jpg" alt="Logo CNMH" width="400"/>
+
+
+## Palette de coloris:
 - **Color Harmony:** ``Triad``
 
 ### Première palette de couleurs générée selon le logo CNMH
@@ -18,5 +23,5 @@
 
 ## Livrable
 
-    - [Adobe Color](https://color.adobe.com/create/color-wheel)
-    - [Coolors](https://coolors.co/)
+- [Adobe Color](https://color.adobe.com/create/color-wheel)
+- [Coolors](https://coolors.co/)
