@@ -30,7 +30,7 @@
     - Open Sans
 
 
-<img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/font-families.PNG" alt="font-families" width="400"/>
+<img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/font-families.PNG" alt="font-families" width="300"/>
 
 ## Livrable
 
