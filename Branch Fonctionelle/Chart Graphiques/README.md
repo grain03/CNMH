@@ -7,6 +7,12 @@
 
 ## Palette de coloris:
 - **Color Harmony:** ``Triad``
+  - Color Codes
+    - #EB9594
+    - #94C6EB
+    - #EBEB94
+    - #96967E
+    - #6B4848
 
 ### Première palette de couleurs générée selon le logo CNMH
 <img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/cnmh-pallete.png" alt="Première palette de couleurs" width="400"/>
