@@ -28,6 +28,7 @@
     - Arial
     - Helvetica
     - Open Sans
+    - <span style="font-family: Open Sans; font-size: 2em;">Open Sans</span>
 
 ## Livrable
 
