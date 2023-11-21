@@ -4,11 +4,11 @@
 - **Color Harmony:** ``Triad``
 
 ### Première palette de couleurs générée selon le logo CNMH
-![Pallete de color](https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/cnmh-pallete.png)
+<img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/cnmh-pallete.png" alt="Première palette de couleurs" width="400"/>
 
 
 ### Deuxième palette de couleurs validée avec Adobe Color
-<img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/AdobeColor-CNMH-Pallet-Color.jpeg" alt="Pallete de color valider avec Adobe Color" width="200"/>
+<img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/AdobeColor-CNMH-Pallet-Color.jpeg" alt="Pallete de color valider avec Adobe Color" width="400"/>
 
 ## Font-Family
 
