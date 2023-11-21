@@ -1,13 +1,12 @@
 # Charte Graphiques
 
+## Logo CNMH
 
-## Logo CNMH 
 <img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/cnmh.jpg" alt="Logo CNMH" width="400"/>
 
+## Palette de coloris
 
-## Palette de coloris:
 - **Color Harmony:** ``Triad``
-
 
   - Couleurs Codes:
     - #EB9594
@@ -17,10 +16,11 @@
     - #6B4848
 
 ### Première palette de couleurs générée selon le logo CNMH
+
 <img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/cnmh-pallete.png" alt="Première palette de couleurs" width="400"/>
 
-
 ### Deuxième palette de couleurs validée avec Adobe Color
+
 <img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/AdobeColor-CNMH-Pallet-Color.jpeg" alt="Pallete de color valider avec Adobe Color" width="400"/>
 
 ## Font-Family
@@ -29,8 +29,9 @@
     - Helvetica
     - Open Sans
 
+## Thème de Présentation
 
-<img src="https://github.com/grain03/CNMH/blob/master/Branch%20Fonctionelle/Chart%20Graphiques/images/font-families.PNG" alt="font-families" width="300"/>
+- [Lien De Thème de Presentation](https://docs.google.com/presentation/d/1NafuUNMLkwP1GzIqgw0b4lOd9jwnRrbgQVrwHKL33Cw/edit?usp=sharing)
 
 ## Livrable
 
