@@ -38,10 +38,10 @@
 - [ ] Task 2
 - [x] Task 3
 
-## Links And References 
-- [Reference](https://github.com/grain03/CNMH/blob/master/Branch%20Techniques/Labs/Lab-Markdown/Reference.md)
-- [Reda Grain - Github Profile](https://www.github.com/grain03)
-
 ## Quotes
 > This is quote number 1.
 > This is quote number 2.
+
+## Links And References 
+- [Reference](https://github.com/grain03/CNMH/blob/master/Branch%20Techniques/Labs/Lab-Markdown/Reference.md)
+- [Reda Grain - Github Profile](https://www.github.com/grain03)
