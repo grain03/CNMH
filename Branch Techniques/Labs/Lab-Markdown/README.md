@@ -2,9 +2,9 @@
 
 ## Comment créer un fichier README.md et organiser sa structure à l'aide de l'extension Markdown dans Visual Studio ?
 
-### Vous devez créer le fichier README.me en utilisant différents outils de Markdown en utilisant l'extension Markdown.
+##### Vous devez créer le fichier README.me en utilisant différents outils de Markdown en utilisant l'extension Markdown.
 
-## Comment utiliser Markdown
+###### Comment utiliser Markdown
 
 **Markdown** est un outil pour écrire du texte très bien formaté, voici quelques fonctionnalités
 
