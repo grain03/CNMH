@@ -4,84 +4,44 @@
 
 ### Vous devez créer le fichier README.me en utilisant l'extension Markdown.
 
+## How to Use Markdown
 
-# lab-markdown
-Welcome to the Lab Markdown repository! This space is dedicated<br> to understanding and mastering the art of Markdown, a lightweight and easy-to-use markup language that allows you to format plain text.<br> Markdown is widely used for creating documentation, README files, and even blogs.<br> In this lab, you will learn the fundamentals of Markdown syntax, including headers, lists, links, code blocks, and more.<br>
+**Markdown** is an tool to write very well formated Text, these are some feauters
 
-Feel free to explore the resources and exercises in this repository to enhance your Markdown skills.<br> Whether you are a beginner or an experienced developer, mastering Markdown will empower you to create clear and well-formatted documents for your projects.<br> Let's dive in and elevate your Markdown game!<br>
+* List 1
+* List 2
+* List 3
+  * Sub list 1
+  * Sub list 2
+* List 4
+* List 5
 
-## Rules for Writing README.md:
-1. Clarity: Make sure your content is clear and easy to understand.
-2. Sections: Divide your document into sections for easy navigation.
-3. Installation: Include clear installation instructions.
-4. Usage: Explain how to use your project with examples if possible.
-5. Contributing: Clearly state how others can contribute to your project.
-6. License: Specify the license your project uses.
-7. Visuals: Use badges, screenshots, and diagrams to enhance understanding.
-8. Links: Provide links to important resources, documentation, and live demos.
-9. Formatting: Use formatting (like bold, italics, lists) for readability.
-10. Grammar and Spelling: Proofread your content to ensure there are no errors.
-## Markdown Styling Commands:
-1. Headers (`#`, `##`, `###`):
-```
-# Header 1
-## Header 2
-### Header 3
-```
-***Headers are used to create section titles. Use `#` for the main title, `##` for subsections, and so on.***
-2. Emphasis (Bold `**`, Italic `*`):
 
-```
-**Bold Text**
-*Italic Text*
-```
-***Use `**` for bold and `*` for italic. Wrap the text you want to emphasize with these symbols.***
-3. Lists (`-`, `1.`):
+ 1. list 1
+ 2. list 2
+ 3. List 3
 
-```
-- Item 1
-- Item 2
-  - Subitem 2.1
-1. Ordered Item 1
-2. Ordered Item 2
-```
-Use `-` for unordered (bullet) lists and `1.` for ordered lists.
-4. Links (`[]``()`):
-```
-[Link Text](https://www.example.com)
-```
 
-5. Images (`![]``()`):
-```
-![Alt Text](image-url)
-```
-6. Code Blocks (`,` ` language`):
-```
-Use three backticks (```) for code blocks. Optionally, specify the programming language after the opening three backticks for syntax highlighting.
 
-```
+## Table
 
-7. Tables (`|`):
-```
+
 | Header 1 | Header 2 |
 |----------|----------|
 | Row 1    | Row 1    |
 | Row 2    | Row 2    |
-```
-8. Quotes  (`>`):
-```
-> This is a quote.
-```
-9. Task Lists (`-` `[ ]`, `-` `[x]`):
-```
+
+
+## Tasks
+
 - [x] Task 1
 - [ ] Task 2
-```
+- [x] Task 3
 
-10. Horizontal Line (`---`):
-```
----
-```
-Remember, a well-organized and well-formatted README.md not only helps users understand your project<br> better but also encourages collaboration and contributions.<br> Use these commands wisely to create an informative and visually appealing README.md file for your projects.
-# Author :
-[Reda Grain - Github Profile](https://github.com/grain03)
+## Links And References 
+[Reference](https://github.com/grain03/CNMH/blob/master/Branch%20Techniques/Labs/Lab-Markdown/Reference.md)
+[Reda Grain - Github Profile](https://www.github.com/grain03)
+
+## Quotes
+> This is quote number 1.
+> This is quote number 2.
