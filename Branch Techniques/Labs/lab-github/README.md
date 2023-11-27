@@ -1,19 +1,9 @@
 # Travail à faire
-## Comment utiliser les méthodes Git ?
+### Comment utiliser les méthodes Git ?
 #### Vous devez collaborer avec quelqu'un et ouvrir un conflit en utilisant les méthodes git.
 
 
-
-
-
-
-
-
-
-
-
-
-### lab-github <br>
+#### lab-github <br>
 
 **Steps to make conflict** <br>
 
@@ -89,11 +79,7 @@ If there are conflicts during the merge process, Git will pause and allow you to
 
 ```
 <body>
-<<<<<<< HEAD
-    Hello im jalil betroji a full stack developer and solicode intern
-=======
-    hussein ipsum dolor sit amet consectetur adipisicing elit. 
->>>>>>> origin/hussein
+    Hello im reda grain a full stack developer and solicode intern
     Sed maiores quo debitis harum dolorum, itaque aliquid reiciendis 
     quasi repellendus aliquam alias ipsam eligendi earum voluptate totam! Quos deleniti pariatur nemo?
     ll
@@ -137,3 +123,8 @@ Finally, push the merged changes to the remote repository:
 git push origin main
 ```
 Now, the changes from the bracnh-1 and branch-2 branches are merged into the main branch. Make sure to thoroughly test the merged code to ensure everything is working as expected before pushing to production if applicable.
+
+
+
+# Reference
+[Reference](./README.md)
