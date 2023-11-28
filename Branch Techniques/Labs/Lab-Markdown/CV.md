@@ -1,5 +1,5 @@
 # Reda Grain
-Full Stack Developer
+## Full Stack Developer
 ![Image](./img/image.png)
 
 - Compétences Techniques
