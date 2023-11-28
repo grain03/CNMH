@@ -1,10 +1,3 @@
-# Travail à faire
-
-### Comment Créer le processus de création d'un fichier README.md et d'organisation de sa structure en utilisant l'extension Markdown dans Visual Studio ?
-
-#### Vous devez créer le fichier README.me en utilisant l'extension Markdown.
-
-
 #### lab-markdown
 Welcome to the Lab Markdown repository! This space is dedicated<br> to understanding and mastering the art of Markdown, a lightweight and easy-to-use markup language that allows you to format plain text.<br> Markdown is widely used for creating documentation, README files, and even blogs.<br> In this lab, you will learn the fundamentals of Markdown syntax, including headers, lists, links, code blocks, and more.<br>
 
