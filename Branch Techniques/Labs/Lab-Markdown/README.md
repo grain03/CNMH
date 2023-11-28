@@ -6,6 +6,7 @@ Comment créer un fichier README.md et organiser sa structure à l'aide de l'ext
 Vous devez créer le fichier README.me en utilisant les outils de Markdown en utilisant l'extension Markdown.
 
 #### Critères de validation:
+Vous devez ajouter ces outils de MarkDown :
 
 - List
 - Sub List
