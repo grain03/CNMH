@@ -38,6 +38,9 @@
 - [ ] Task 2
 - [x] Task 3
 
+## Image
+![Image](./img/image.jpg)
+
 ## Quotes
 > This is quote number 1.
 > This is quote number 2.
