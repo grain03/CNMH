@@ -2,53 +2,21 @@
 
 ## Travail à faire
 
-Comment créer un fichier README.md et organiser sa structure à l'aide de l'extension Markdown dans Visual Studio ?
-Vous devez créer le fichier README.me en utilisant les outils de Markdown en utilisant l'extension Markdown.
+- Vous devez créer un CV en utilisant Markdown outil.
 
-#### Critères de validation:
-Vous devez ajouter ces outils de MarkDown :
+### Critères de validation
 
-- List
-- Sub List
-- Image
-- Liens
-- Table
-- Task
+Votre CV doit inclure :
 
-### Réponse de question:
-
-* List 1
-* List 2
-* List 3
-  * Sub list 1
-  * Sub list 2
-* List 4
-* List 5
+- Ajout des listes
+- Ajout des Sub List
+- Ajout des Images
+- Ajout des Liens
 
 
-1. list 1
-2. list 2
-3. List 3
-
-
-## Table
-
-
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1    | Row 1    |
-| Row 2    | Row 2    |
-
-
-## Tasks
-
-- [x] Task 1
-- [ ] Task 2
-- [x] Task 3
-
-## Image
-![Image](./img/image.jpg)
-
+## Solution 
+- [CV](./CV.md)
 
 ## Links And References 
+
 - [Reference](https://github.com/grain03/CNMH/blob/master/Branch%20Techniques/Labs/Lab-Markdown/Reference.md)
