@@ -18,3 +18,4 @@
 
 ## Contact
 - [Github - Reda Grain](https://github.com/grain03/)
+- [LinkedIn - Reda Grain](https://www.linkedin.com/in/redagrain/)
