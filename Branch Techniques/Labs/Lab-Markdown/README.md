@@ -50,4 +50,3 @@ Vous devez créer le fichier README.me en utilisant les outils de Markdown en ut
 
 ## Links And References 
 - [Reference](https://github.com/grain03/CNMH/blob/master/Branch%20Techniques/Labs/Lab-Markdown/Reference.md)
-- [Reda Grain - Github Profile](https://www.github.com/grain03)
