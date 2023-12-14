@@ -1,8 +1,15 @@
-# Travail à Faire
+# lab Présentation 
+## Travail à faire
+Comment Rediger une presentation professionnel
 
-## Comment créer un Presentation professionnelle
-> Vous devez créer une présentation professionnelle dans PowerPoint ou Google Slides
+## critere de validation 
 
-### Refrences
+- livrable doit etre une presentation, et fichier README 
 
-- [COMMENT BIEN COMMENCER UNE PRÉSENTATION POWERPOINT PROFESSIONNELLE ?](https://laboiteaslides.fr/articles/lab/comment-commencer-presentation-powerpoint-professionnelle/)
+### Reference
+
+[COMMENT PRÉPARER VOTRE PRÉSENTATION PROFESSIONNELLE ?](https://laboiteaslides.fr/articles/lab/presentation-powerpoint-professionnelle/) 
+
+### Solution
+
+[Presentation](https://docs.google.com/presentation/d/1ZPrnbQ9IKFbyRej_wvgaKJ8iaxK2gUnvK34yWFktFzk/edit?usp=sharing)
