@@ -15,7 +15,7 @@ class CalculateController extends Controller
 
         return view('index', compact('result'));
     }
-
+ 
     public function sum($num1, $num2)
     {
         return $num1 + $num2;
