@@ -24,3 +24,4 @@ Route::patch('{tasks}/update', [ProjectsController::class, 'update'])->name('upd
 
 Route::delete('{tasks}/destroy', [ProjectsController::class, 'destroy'])->name('destroy');
 
+Route::get('{task}/show',[ProjectsController::class,'show'])->name('show');

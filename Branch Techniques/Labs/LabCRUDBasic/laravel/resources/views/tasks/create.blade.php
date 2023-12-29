@@ -16,7 +16,7 @@
                                 <div class="form-group">
                                     <label for="Projet">Projet <span class="text-danger">*</span></label>
                                     <select name="project_id" id="Projet" class="custom-select">
-                                        @foreach ($Projects as $Project)
+                                        @foreach ($projects as $Project)
                                             <option value="{{ $Project->id }}">{{ $Project->name }}</option>
                                         @endforeach
                                     </select>

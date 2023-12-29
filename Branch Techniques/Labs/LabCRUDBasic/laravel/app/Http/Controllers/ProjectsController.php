@@ -89,4 +89,12 @@ class ProjectsController extends Controller
         $tasks->delete();
         return redirect('/')->with('success', 'Tâche delete avec succès !');
     }
+
+
+    public function show(Tasks $task)
+    {
+        $Projects = Projects::all();
+
+        return view('Tasks.show', compact('task', 'Projects'));
+    }
 }
