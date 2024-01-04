@@ -73,7 +73,17 @@ php artisan make:controller TasksController
 
 10. To view your project's progress locally, run this command:
 
+
+
+```bash
+    npm install admin-lte@^3.2 --save
+    composer require infyomlabs/laravel-ui-adminlte
+    npm install && npm run dev
+```
+
+
 ```bash 
 php artisan serve
 
 ```
+ 

@@ -1,27 +1,23 @@
 <?php
 
-use App\Http\Controllers\ProjectsController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TaskController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+Route::get('/', function () {
+    return view('home');
+})->name('home');
 
-Route::get('/', [ProjectsController::class, 'index'])->name('index');
+Route::get('/taches', [TaskController::class, 'index'])->name('index');
 
-Route::get('/create', [ProjectsController::class, 'create'])->name('create');
-Route::post('/store', [ProjectsController::class, 'store'])->name('store');
+Route::get('create', [TaskController::class,'create'])->name('create');
 
-Route::get('{tasks}/edit', [ProjectsController::class, 'edit'])->name('edit');
-Route::patch('{tasks}/update', [ProjectsController::class, 'update'])->name('update');
+Route::post('store', [TaskController::class, 'store'])->name('store');
 
-Route::delete('{tasks}/destroy', [ProjectsController::class, 'destroy'])->name('destroy');
+Route::get('{task}/edit', [TaskController::class, 'edit'])->name('edit');
+Route::put('{task}/update', [TaskController::class, 'update'])->name('update');
 
-Route::get('{task}/show',[ProjectsController::class,'show'])->name('show');
+Route::delete('{task}/destroy', [TaskController::class, 'destroy'])->name('destroy');
+Route::get('{task}/show',[TaskController::class,'show'])->name('show');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+

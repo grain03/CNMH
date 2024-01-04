@@ -1,8 +1,8 @@
 <!-- aside -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="{{ route('index') }}" class="brand-link text-center">
-        <span class="brand-text font-weight-bold ">Lab Laravel Basic</span>
+    <a href="{{ route('Home') }}" class="brand-link text-center">
+        <span class="brand-text font-weight-bold ">Lab Crud Laravel Basic</span>
     </a>
 
     <!-- Sidebar -->
@@ -15,7 +15,7 @@
                     <a href="{{ route('index') }}" class="nav-link ">
                         <i class="nav-icon fas fa-table"></i>
                         <p>
-                            Tâche
+                            Gestion des Tâches
                         </p>
                     </a>
                 </li>

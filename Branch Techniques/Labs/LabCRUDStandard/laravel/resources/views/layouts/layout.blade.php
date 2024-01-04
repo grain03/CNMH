@@ -1,4 +1,6 @@
-<!DOCTYPE html> <html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,14 +35,21 @@
 
 </head>
 
-<body>
-    @extends('nav')
-    @extends('sideBar')
-    <section>
-    @yield('content')
-    </section>
+<body class="sidebar-mini" style="height: auto;">
+    <div class="wrapper">
 
-    
+        @include('Layouts.Navbar')
+
+        @include('Layouts.Sidebar')
+        <div class="content-wrapper" style="min-height: 1302.4px;">
+            @yield('content')
+        </div>
+
+        @include('Layouts.Footer')
+
+
+    </div>
+
     <script src={{ asset('plugins/jquery/jquery.min.js') }}></script>
     <!-- jQuery UI 1.11.4 -->
     <script src={{ asset('plugins/jquery-ui/jquery-ui.min.js') }}></script>
@@ -74,13 +83,62 @@
     {{-- <script src={{asset("dist/js/demo.js")}}></script> --}}
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
     <script src={{ asset('dist/js/pages/dashboard.js') }}></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/browser-resolve/1.14.2/browser.resolve.js"></script>
-    <!-- MDB -->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
-></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            function fetchData(page, searchTaskValue, selectProjrctValue) {
+                $.ajax({
+                    url: 'tâches/?page=' + page + '&searchTaskValue=' + searchTaskValue +
+                        '&selectProjrctValue=' +
+                        selectProjrctValue,
+                    success: function(data) {
+                        $('tbody').html('');
+                        $('tbody').html(data);
+                        // console.log(data);
+                    }
+                });
+                console.log(page);
+                console.log(searchTaskValue);
+                console.log(selectProjrctValue);
+            }
+
+            $('body').on('click', '.pagination a', function(e) {
+
+                e.preventDefault();
+
+                let page = $(this).attr('href').split('page=')[1];
+                let searchTaskValue = $('#search-input').val();
+                let selectProjrctValue = $('#filterSelectProjrctValue').val();
+                // console.log($(this).attr('href').split('page=')[1]);
+                // console.log($(this).attr('href'));
+                fetchData(page, searchTaskValue, selectProjrctValue);
+
+            });
+
+            $('body').on('keyup', '#search-input', function() {
+                let page = $('#page').val();
+                let searchTaskValue = $('#search-input').val();
+                let selectProjrctValue = $('#filterSelectProjrctValue').val();
+
+                fetchData(page, searchTaskValue, selectProjrctValue);
+            });
+
+            $('#filterSelectProjrctValue').on('change', function() {
+                let page = $('#page').val();
+                let searchTaskValue = $('#search-input').val();
+                let selectProjrctValue = $(this).val();
+                fetchData(page, searchTaskValue, selectProjrctValue);
+            });
+
+        });
+    </script>
+
 </body>
 
 </html>
