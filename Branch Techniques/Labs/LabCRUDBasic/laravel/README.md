@@ -84,6 +84,15 @@ php artisan make:controller TasksController
 
 ```bash 
 php artisan serve
-
 ```
  
+# Livrable
+- Présentation: Lab CRUD laravel basic
+  - solicoders_2024/Branche Technique/Labs/Présentation de Lab CRUD Laravel Basic
+- Code source
+  - https://github.com/labs-web/lab-crud-basic-laravel
+    - Branche: Develop
+- Fichier Readme
+  - https://github.com/labs-web/lab-crud-basic-laravel
+- Maquettes
+  - https://github.com/grain03/CNMH/tree/master/Branch%20Techniques/Labs/LabCRUDBasic/Maquittage
